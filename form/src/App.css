@@ -1,0 +1,662 @@
+.signupWrapper {
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D2733;
+}
+
+.loginWrapper {
+
+ 
+    min-height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D2733;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+  
+}
+.loginJoinsec{
+  
+  position: relative;
+  display: flex;
+  width: 80%;
+  max-width: 750px;
+  min-height: 350px;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 80px;
+  box-shadow: 0px 10px 50px #555;
+   
+}
+.loginFirstsec{
+
+  width: 200px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 50px 90px;
+  background-color: #304150;
+  border-radius: 10px;
+}
+
+
+
+.signup-form-wrapper{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px 70px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #384B5C;
+}
+
+.login-form-wrapper {
+
+  width: 400px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px 160px;
+
+  border-radius: 10px;
+  background-color: #384B5C;
+
+ 
+}
+
+
+.loginFirstsec h1,.loginFirstsec p ,.login-form-wrapper h1,.signup-form-wrapper h1 {
+  padding: 10px;
+  color: white;
+}
+
+
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+h1{
+  font-size: 30px;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input,#dropdown {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+.firstName,
+.lastName,
+.email,
+.password,
+.confirmPassword{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  height: 15px;
+  width: 500px;
+ 
+ 
+}
+.loginEmail,.loginPassword{
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  height: 15px;
+  width: 500px;
+}
+.error{
+  
+  color: red;
+  font-size: 12px;
+  line-height: normal;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  
+}
+
+.loginError{
+  color: red;
+  font-size: 12px;
+  line-height: normal;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+input.errors{
+  
+    color: red;
+    font-size: 12px;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 2px solid #d93025;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 500px;
+  }
+
+
+.createAccount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Login {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding :20px 0px;
+
+
+  }
+  .Login button,
+  .createAccount button {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 300px;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    border-radius: 20px;
+  }
+
+  .loginFirstsec button{
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    border-radius: 15px;
+  }
+
+  .Next button:hover,
+  .createAccount button:hover,
+  .loginFirstsec button:hover,
+  .Login button:hover,
+  .RegisterSubmit button:hover
+  {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+  }
+  a {
+    color: #bcc2c5;
+  }
+  
+  .createAccount small:hover,a:hover{
+    color: #b8d147;
+  }
+
+  .createAccount small {
+    color:white;
+    font-weight: lighter;
+    text-decoration-color: red;
+    
+  }
+
+
+  .signupError{
+    color: red;
+  }
+
+
+  /* secret Questions CSS */
+
+
+  .secretWrapper {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D2733;
+  }
+
+  .secret-form-wrapper{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #384B5C;
+    padding-left: 80px;
+  }
+
+  .securityQuestion,
+  .securityAnswer{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    /* height: 50px; */
+    margin-right: 40px;
+    margin-bottom: 10px;
+    color:white
+    
+  }
+
+  .securitySelect{
+ 
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  
+  }
+
+  .securityAnswer,.securityAnswer1{
+    height: 12px;
+    width: 277px;
+    font-size: 15px;
+    margin-left: 128px;
+    border-radius: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+
+  }
+
+ 
+
+  .securityAnswer::placeholder,.securityAnswer1::placeholder {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #999;
+  }
+
+
+  .securityErrors,.securityErrors1{
+  
+    color: red;
+    font-size: 12px;
+    line-height: normal;
+    margin-left: 260px;
+    margin-right: 100px;
+    
+  
+  }
+
+  .selectSecurityErrors{
+ 
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    border: 2px solid #d93025;
+
+  }
+  
+  
+  input.securityErrors, input.securityErrors1{
+    
+    
+      margin-top: -40px;
+      height: 12px;
+      width: 277px;
+      font-size: 15px;
+      margin-right: auto;
+      border-radius: 10px;
+      color: RED;
+      border: 2px solid #d93025;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+       display: flex;
+      flex-direction: column;
+    }
+
+    .secret-form-wrapper h1{
+      color:white
+    }
+    .secret-form-wrapper p,
+    .resetpassword-form-wrapper p{
+      color:white;
+      margin-top: -10px;
+    
+    }
+
+    .securitySubmit{
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+    a.createAccount {
+      background-color: #519e8a;
+      color: #fff;
+      border: 2px solid #fff;
+      width: 300px;
+      margin-top: 1em;
+      padding: 8px 0px;
+      font-size: 1em;
+      font-weight: lighter;
+      letter-spacing: 1px;
+      margin-bottom: 0.25em;
+      border-radius: 20px;
+      text-decoration: none;
+  
+  }
+
+
+
+  /* Resetting password */
+
+  .resetpassword-form-wrapper{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 70px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #384B5C;
+  }
+
+  .resetpassword-form-wrapper h1{
+    color: white;
+    padding-bottom: 10px;
+  }
+
+.newPassword,
+.newconfirmPasswod{
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 15px;
+  width: 500px;
+}
+.passwordErrors{
+  
+  color: red;
+  font-size: 12px;
+  line-height: normal;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  
+
+}
+
+/* Register.js css */
+
+
+#body
+{
+margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #061C37;
+	background: #014D5D url("./images/main_pic.png");
+  background-repeat:repeat-x;
+  
+}
+.topNaviagationLink,
+.topNaviagationLink1
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+margin-left:-10px;
+width:121px;
+height: 35px;
+float:left;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+
+.topNaviagationLink a
+{
+text-decoration:none;
+color:#CDE2FC;
+}
+
+.topNaviagationLink a:hover,
+.topNaviagationLink1 a:hover,
+.topNaviagationLink1 a
+{
+text-decoration:none;
+text-align:center;
+border-bottom:none;
+color:#0C61C9;
+display: block;
+width:110px;
+height: 35px;
+line-height: 35px;
+background-image: url("./images/tab.png");
+
+}
+
+#page
+{
+  margin: 0 auto 0 auto;
+  text-align:left;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 800px;
+}
+
+.contentBox
+{
+margin: 0 auto 0 auto;
+text-align:left;
+width:800px;
+height:auto;
+background-color:#FFFFFF;
+margin-top:-13px;
+}
+
+.contentBox .innerBox
+{
+position:relative;
+width:780px;
+height:auto;
+top:10px;
+margin-left:10px;
+background-image:url("./images/content_back.png");
+background-repeat:repeat-x;
+padding-bottom:35px;
+}
+
+.contentBox .innerBox h3,
+.contentBox_list .innerBox_list h3{
+  text-align:center;
+}
+
+.RegisterForm{
+  align-items: center;
+  padding:20px 150px 20px;
+}
+
+.RegisterElem{
+  padding: 20px 140px 10px;
+}
+
+.RegisterElem input {
+  padding: 10px 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  width:130%;
+  border: 1px solid #cfcfcf;
+  
+}
+
+#footer {
+
+width: 800px;
+height:16px;
+background: url("./images/footer.png") no-repeat;
+background-size: 800px;
+margin: auto;
+text-align:center;
+font-size:9px;
+font-family:Arial, Helvetica, sans-serif;
+color:#386172;
+padding-top:5px;
+
+
+  }
+  
+  #footer a
+  {
+  text-decoration:none;
+  font-size:9px;
+  color:#386172;
+  }
+
+  .RegisterSubmit button{
+    background-color:#519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 50%;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    border-radius: 15px;
+  }
+
+  #dropdown{
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    width:141%;
+    border: 1px solid #cfcfcf;
+    
+  }
+
+  #datepicker {
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    width:137%;
+    border: 1px solid #cfcfcf;
+    
+  }
+
+.contentBox_list
+{
+margin: 0 auto 0 auto;
+text-align:left;
+width:1000px;
+height:auto;
+background-color:#FFFFFF;
+margin-top:-13px;
+}
+
+.contentBox_list .innerBox_list
+{
+position:relative;
+width:980px;
+height:auto;
+top:10px;
+margin-left:10px;
+background-image:url("./images/content_back.png");
+background-repeat:repeat-x;
+padding-bottom:35px;
+}
+
+
+th{
+    padding: 20px;
+  }
+ td{
+   padding: 20px;
+ }
+
+ #page_list
+{
+  margin: 0 auto 0 auto;
+  text-align:left;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 1000px;
+}
+
+
+.modal{
+  padding:30px;
+  width:500px;
+  background: white;
+  border:1px solid #ccc;
+  align-items: center;
+  margin: 250px;
+  margin-left: 400px;
+}
+
+.register_list_button button{
+    border: none;
+    background: none;
+    font-family: arial, sans-serif;
+    color: #bcc2c5;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .register_list_button button:hover
+  {
+    color: #519e8a;
+  }
+
+
+
